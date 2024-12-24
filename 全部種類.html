@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <style>
+      body{
+        background-color: rgba(70, 75, 75, 0.242);
+      }
+    
+      #img1{
+        width: 100%;
+        height: auto;
+      }
+ 
+      #img2{
+        width: 100%;
+        height: auto;
+      }
+ 
+      #img3{
+        width: 100%;
+        height: auto;
+      }
+
+       #img4{
+        width: 100%;
+        height: auto;
+      }
+
+      #img5{
+        width: 100%;
+        height: auto;
+      }
+   
+      #img6{
+        width: 100%;
+        height: auto;
+      }
+ 
+      #img7{
+        width: 100%;
+        height: auto;
+      }
+  
+      #img8{
+        width: 100%;
+        height: auto;
+      }
+   
+      #img9{
+        width: 100%;
+        height: auto;
+      }
+ 
+     #img10{
+       width: 100%;
+       height: auto;
+     }
+  
+      #img11{
+        width: 100%;
+        height: auto;
+      }
+   
+      #img12{
+        width: 100%;
+       height: auto;
+      }
+    </style>
+
+</head>
+
+<body>
+    <div class="row row-cols-1 row-cols-md-4">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Spaghetti.png" class="card-img-top" id="img1" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spaghetti 義大利直麵條</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Capellini.png" class="card-img-top" id="img2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Capellini 天使髮絲細麵</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Linguine.png" class="card-img-top" id="img3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Linguine 義大利扁麵條</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="panne.png" class="card-img-top" id="img4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Panne 筆管麵</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        .card-img-top {
+        width: 100%;        /* 確保圖片寬度填滿卡片 */
+        height: 75%;      /* 固定圖片高度 */
+        object-fit: cover;  /* 裁剪圖片，讓它保持比例並填滿框架 */
+        }
+        .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* 讓圖片與文字之間均勻分布 */
+        }
+      </style>
+
+      <div class="row row-cols-1 row-cols-md-4">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Tagliatelle.png" class="card-img-top" id="img5" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tagliatelle 扁寬麵</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Pappardelle.png" class="card-img-top" id="img6" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pappardelle 寬帶麵</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="conchiglie.png" class="card-img-top" id="img7" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Conchiglie 貝殼麵</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Gnocchi.png" class="card-img-top" id="img8" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gnocchi 玉棋</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        .card {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-img-top {
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-body {
+        text-align: center; /* 讓文字水平置中 */
+        }
+    </style>
+
+      <div class="row row-cols-1 row-cols-md-4">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Fusilli.png" class="card-img-top" id="img9" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fusilli 螺旋麵</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Maccheroni.png" class="card-img-top" id="img10" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maccheroni 通心粉</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Farfalle.png" class="card-img-top" id="img11" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Farfalle 蝴蝶麵</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="Chifferi.png" class="card-img-top" id="img12" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chifferi 細小彎管麵</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        .card {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-img-top {
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-body {
+        text-align: center; /* 讓文字水平置中 */
+        }
+    </style>
+
+</body>
+</html>
